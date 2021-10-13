@@ -1,0 +1,161 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./Background.png");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+}
+
+.header-list {
+  position: relative;
+  -webkit-transform: translateX(15%);
+          transform: translateX(15%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.header-list li a {
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.header-list li a:hover {
+  color: #31c889;
+}
+
+.header-buttons {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.header-buttons .btn {
+  padding: 1rem 2rem;
+  font-weight: 600;
+  background: none;
+  border: none;
+}
+
+.header-buttons .btn-primary {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  margin-right: 1rem;
+}
+
+.header-buttons .btn-secondary {
+  color: #fff;
+}
+
+.header-main {
+  height: 80%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #fff;
+}
+
+.header-main__left {
+  max-width: 50rem;
+}
+
+.header-main__left p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.header-main__left h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.header-main__left button {
+  margin-top: 3rem;
+  padding: 1.5rem 2rem;
+  border: none;
+  background-color: #31c889;
+  color: #fff;
+  border-radius: 2.5rem;
+}
+
+.header-main__right .card {
+  width: 40rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.header-main__right .card-image {
+  width: 40rem;
+  height: 22rem;
+}
+
+.header-main__right .card-info {
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 2.5rem;
+}
+
+.header-main__right .card-info__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-main__right .card-info__top > p {
+  padding-right: 1rem;
+}
+
+.header-main__right .card-info__title {
+  font-size: 2.4rem;
+  padding: 2rem 0 1.2rem 0;
+}
+
+.header-main__right .card-info__exc {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.header-main__right .card-info__btn {
+  background: none;
+  border: none;
+  color: #f25e43;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+/*# sourceMappingURL=header.styles.css.map */
